@@ -1,0 +1,9 @@
+.button{
+    background-color: aqua;
+    color: black;
+}
+
+.button:active{
+    rotate: 90deg;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.box1{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 #111;
+}
+
+
+img{
+    width: 270px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 23px;
+}
+
+body{
+    background-color: rgb(243, 199, 64);  
+}
+
+button{
+    border: none;
+    background-color:rgb(243, 199, 64);   
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    border-radius: 3px;
+    font-family: "Figtree", sans-serif;
+
+}
+
+p{
+    font-size: 10px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    font-family: sans-serif;
+    
+}
+
+h3{
+    position: absolute;
+    top:240px ;
+    left: 30px;
+    font-family: "Figtree", sans-serif; 
+}
+
+
+.p{
+    position: absolute;
+    top: 290px;
+    font-size: 11px;
+    color: rgb(109, 106, 106);
+    font-family: "Figtree", sans-serif; 
+}
+
+.img{
+    border-radius: 1000px;
+    width: 30px;
+    position: absolute;
+    top: 400px;
+}
+
+.gp{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-size: 10px;
+    font-family: "Figtree", sans-serif; 
+}
