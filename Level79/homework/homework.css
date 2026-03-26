@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(176, 214, 252);
+    
+    
+}
+
+div{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+img{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 8px;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+h2{
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    color: rgba(199, 156, 255, 0.387);
+    
+}
+
+
+h5{
+    font-family: sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    color: rgba(127, 90, 174, 0.387);
+}

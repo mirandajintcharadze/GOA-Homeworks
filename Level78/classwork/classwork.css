@@ -1,0 +1,43 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.b1 {
+    height: 70px;
+    width: 500px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+.b2{
+    height: 70px;
+    width: 500px;
+    background-color: rgb(0, 255, 42);
+    border-radius: 10px;
+}
+
+.b3{
+    height: 70px;
+    width: 500px;
+    background-color: rgb(4, 0, 255);
+    border-radius: 10px;
+}
+
+@media(max-width: 400px){
+  .parent{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }  
+}
