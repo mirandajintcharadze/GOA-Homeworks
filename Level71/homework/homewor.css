@@ -1,0 +1,41 @@
+body {
+    background: #d9d7e3;
+    font-family: sans-serif;
+  }
+  
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 1px auto;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  
+ 
+  .purple {
+    background: #6b46c1;
+    color: white;
+  }
+  
+  .dark {
+    background: #1f2937;
+    color: white;
+  }
+  
+  .light {
+    background: white;
+    color: black;
+  }
+  
+ 
+  .big {
+    grid-column: span 2;
+  }
+  

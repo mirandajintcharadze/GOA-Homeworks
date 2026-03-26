@@ -1,0 +1,30 @@
+.child{
+   border: 3px solid; 
+   height: 60px;
+   width: 60px;
+   
+}
+
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 120px;
+    gap: 3px;
+}
+
+#c1{
+background-color: blue;
+}
+
+#c2{
+    background-color: red;
+}
+
+#c3{
+    background-color: green;
+}
+
+#c4{
+    background-color: yellow;
+}

@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+
+}
+
+@media (max-width: 601px) {
+
+    .main {
+      background-color: orange;
+        display: flex;
+      flex-direction: column;
+    }
+}

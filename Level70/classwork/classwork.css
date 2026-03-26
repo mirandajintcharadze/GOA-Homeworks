@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    animation:colorchange linear 10s infinite;
+    position: relative;
+    top: 100px;
+    border-color: white;
+    border: solid;
+    animation-duration: 15s;
+    border-radius: 5px;
+    
+}
+
+
+@keyframes colorchange{
+    from{left: 0;}
+    to{left:90px}
+
+}
+
+
+@keyframes colorchange{
+0%{background-color: white;left: 0px; }
+25%{background-color: white;}
+50%{background-color: white;}
+100%{background-color: white; left:90px ;}
+}
+
+h2{
+    color: white;
+    position: absolute;
+
+}
