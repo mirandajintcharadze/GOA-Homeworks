@@ -1,0 +1,26 @@
+h1{
+    font-family: sans-serif;
+    display: flex;
+    
+    align-items: center;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.p2{
+    color: blue;
+}
+
+div{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+img{
+    position: absolute;
+    right: -300px;
+    width: 300px;
+}
