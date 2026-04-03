@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dv1{
+    background-color: rgb(223, 223, 228);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 700px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#btn1{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 150px;
+    border-radius: 15px;
+}

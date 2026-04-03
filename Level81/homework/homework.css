@@ -9,12 +9,14 @@ nav {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    gap: none;
 
 }
 
 .dv1 {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 
 }
 
@@ -34,14 +36,16 @@ h3 {
     color: rgb(0, 174, 255);
 }
 
-h1 {
+.hi {
     display: flex;
     justify-content: space-around;
+    font-size: 50px;
 }
 
 h4 {
     display: flex;
     justify-content: space-around;
+    
 }
 
 #btn2 {
@@ -58,9 +62,16 @@ h4 {
 #btn3 {
     height: 40px;
     width: 150px;
-    border: 2px;
+    border-style: solid;
     border-color: rgb(0, 174, 255);
+    border-radius: 5px;
+    background-color: rgb(28, 31, 50);
     color: white;
-   
-    
 }
+
+.dv2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+

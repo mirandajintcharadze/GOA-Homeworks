@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(209, 197, 197);
+    color: white;
+}
+
+div{
+    border-color: greenyellow;
+    border-radius: 10px;
+    height: 100px;
+    
+}

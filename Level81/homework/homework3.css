@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+
+.img1{
+    border-radius: 250px;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+
+.img2{
+    border-radius: 350px;
+   position: absolute;
+   top: 100px;
+   left: 400px;
+}
